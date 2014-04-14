@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63332E8D18FA2718006225C6 /* hangman_00@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63332E8618FA2718006225C6 /* hangman_00@2x.png */; };
+		63332E8E18FA2718006225C6 /* hangman_01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63332E8718FA2718006225C6 /* hangman_01@2x.png */; };
+		63332E8F18FA2718006225C6 /* hangman_02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63332E8818FA2718006225C6 /* hangman_02@2x.png */; };
+		63332E9018FA2718006225C6 /* hangman_03@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63332E8918FA2718006225C6 /* hangman_03@2x.png */; };
+		63332E9118FA2718006225C6 /* hangman_04@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63332E8A18FA2718006225C6 /* hangman_04@2x.png */; };
+		63332E9218FA2718006225C6 /* hangman_05@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63332E8B18FA2718006225C6 /* hangman_05@2x.png */; };
+		63332E9318FA2718006225C6 /* hangman_06@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63332E8C18FA2718006225C6 /* hangman_06@2x.png */; };
+		63F8BD9818EE17C7004B35AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F8BD9718EE17C7004B35AD /* Foundation.framework */; };
+		63F8BD9A18EE17C7004B35AD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F8BD9918EE17C7004B35AD /* CoreGraphics.framework */; };
+		63F8BD9C18EE17C7004B35AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F8BD9B18EE17C7004B35AD /* UIKit.framework */; };
+		63F8BDA218EE17C8004B35AD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63F8BDA018EE17C8004B35AD /* InfoPlist.strings */; };
+		63F8BDA418EE17C8004B35AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F8BDA318EE17C8004B35AD /* main.m */; };
+		63F8BDA818EE17C8004B35AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F8BDA718EE17C8004B35AD /* AppDelegate.m */; };
+		63F8BDAB18EE17C8004B35AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F8BDA918EE17C8004B35AD /* Main.storyboard */; };
+		63F8BDB018EE17C8004B35AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63F8BDAF18EE17C8004B35AD /* Images.xcassets */; };
+		63F8BDB718EE17C8004B35AD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F8BDB618EE17C8004B35AD /* XCTest.framework */; };
+		63F8BDB818EE17C8004B35AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F8BD9718EE17C7004B35AD /* Foundation.framework */; };
+		63F8BDB918EE17C8004B35AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F8BD9B18EE17C7004B35AD /* UIKit.framework */; };
+		63F8BDC118EE17C8004B35AD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63F8BDBF18EE17C8004B35AD /* InfoPlist.strings */; };
+		63F8BDC318EE17C8004B35AD /* HangmanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F8BDC218EE17C8004B35AD /* HangmanTests.m */; };
+		63F8BDCE18EE183C004B35AD /* ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F8BDCD18EE183C004B35AD /* ScanViewController.m */; };
+		63F8BDD118F4D5EC004B35AD /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F8BDD018F4D5EC004B35AD /* GameViewController.m */; };
+		63F8BDD718F62256004B35AD /* NotificationCentralManagerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F8BDD618F62256004B35AD /* NotificationCentralManagerDelegate.m */; };
+		63F8BDDA18F62DD5004B35AD /* NotificationPeripheralDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F8BDD918F62DD5004B35AD /* NotificationPeripheralDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63F8BDBA18EE17C8004B35AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63F8BD8C18EE17C7004B35AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63F8BD9318EE17C7004B35AD;
+			remoteInfo = Hangman;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63332E8618FA2718006225C6 /* hangman_00@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hangman_00@2x.png"; sourceTree = "<group>"; };
+		63332E8718FA2718006225C6 /* hangman_01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hangman_01@2x.png"; sourceTree = "<group>"; };
+		63332E8818FA2718006225C6 /* hangman_02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hangman_02@2x.png"; sourceTree = "<group>"; };
+		63332E8918FA2718006225C6 /* hangman_03@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hangman_03@2x.png"; sourceTree = "<group>"; };
+		63332E8A18FA2718006225C6 /* hangman_04@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hangman_04@2x.png"; sourceTree = "<group>"; };
+		63332E8B18FA2718006225C6 /* hangman_05@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hangman_05@2x.png"; sourceTree = "<group>"; };
+		63332E8C18FA2718006225C6 /* hangman_06@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hangman_06@2x.png"; sourceTree = "<group>"; };
+		63F8BD9418EE17C7004B35AD /* Hangman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hangman.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63F8BD9718EE17C7004B35AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		63F8BD9918EE17C7004B35AD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		63F8BD9B18EE17C7004B35AD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		63F8BD9F18EE17C8004B35AD /* Hangman-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hangman-Info.plist"; sourceTree = "<group>"; };
+		63F8BDA118EE17C8004B35AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		63F8BDA318EE17C8004B35AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63F8BDA518EE17C8004B35AD /* Hangman-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hangman-Prefix.pch"; sourceTree = "<group>"; };
+		63F8BDA618EE17C8004B35AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		63F8BDA718EE17C8004B35AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		63F8BDAA18EE17C8004B35AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63F8BDAF18EE17C8004B35AD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		63F8BDB518EE17C8004B35AD /* HangmanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HangmanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63F8BDB618EE17C8004B35AD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		63F8BDBE18EE17C8004B35AD /* HangmanTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HangmanTests-Info.plist"; sourceTree = "<group>"; };
+		63F8BDC018EE17C8004B35AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		63F8BDC218EE17C8004B35AD /* HangmanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HangmanTests.m; sourceTree = "<group>"; };
+		63F8BDCC18EE183C004B35AD /* ScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanViewController.h; sourceTree = "<group>"; };
+		63F8BDCD18EE183C004B35AD /* ScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanViewController.m; sourceTree = "<group>"; };
+		63F8BDCF18F4D5EC004B35AD /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		63F8BDD018F4D5EC004B35AD /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		63F8BDD518F62256004B35AD /* NotificationCentralManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationCentralManagerDelegate.h; sourceTree = "<group>"; };
+		63F8BDD618F62256004B35AD /* NotificationCentralManagerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationCentralManagerDelegate.m; sourceTree = "<group>"; };
+		63F8BDD818F62DD5004B35AD /* NotificationPeripheralDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationPeripheralDelegate.h; sourceTree = "<group>"; };
+		63F8BDD918F62DD5004B35AD /* NotificationPeripheralDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationPeripheralDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63F8BD9118EE17C7004B35AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F8BD9A18EE17C7004B35AD /* CoreGraphics.framework in Frameworks */,
+				63F8BD9C18EE17C7004B35AD /* UIKit.framework in Frameworks */,
+				63F8BD9818EE17C7004B35AD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63F8BDB218EE17C8004B35AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F8BDB718EE17C8004B35AD /* XCTest.framework in Frameworks */,
+				63F8BDB918EE17C8004B35AD /* UIKit.framework in Frameworks */,
+				63F8BDB818EE17C8004B35AD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63332E8518FA270A006225C6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				63332E8618FA2718006225C6 /* hangman_00@2x.png */,
+				63332E8718FA2718006225C6 /* hangman_01@2x.png */,
+				63332E8818FA2718006225C6 /* hangman_02@2x.png */,
+				63332E8918FA2718006225C6 /* hangman_03@2x.png */,
+				63332E8A18FA2718006225C6 /* hangman_04@2x.png */,
+				63332E8B18FA2718006225C6 /* hangman_05@2x.png */,
+				63332E8C18FA2718006225C6 /* hangman_06@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		63F8BD8B18EE17C7004B35AD = {
+			isa = PBXGroup;
+			children = (
+				63F8BD9D18EE17C7004B35AD /* Hangman */,
+				63F8BDBC18EE17C8004B35AD /* HangmanTests */,
+				63F8BD9618EE17C7004B35AD /* Frameworks */,
+				63F8BD9518EE17C7004B35AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63F8BD9518EE17C7004B35AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63F8BD9418EE17C7004B35AD /* Hangman.app */,
+				63F8BDB518EE17C8004B35AD /* HangmanTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63F8BD9618EE17C7004B35AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63F8BD9718EE17C7004B35AD /* Foundation.framework */,
+				63F8BD9918EE17C7004B35AD /* CoreGraphics.framework */,
+				63F8BD9B18EE17C7004B35AD /* UIKit.framework */,
+				63F8BDB618EE17C8004B35AD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63F8BD9D18EE17C7004B35AD /* Hangman */ = {
+			isa = PBXGroup;
+			children = (
+				63F8BDA618EE17C8004B35AD /* AppDelegate.h */,
+				63F8BDA718EE17C8004B35AD /* AppDelegate.m */,
+				63F8BDAF18EE17C8004B35AD /* Images.xcassets */,
+				63F8BD9E18EE17C8004B35AD /* Supporting Files */,
+				63F8BDA918EE17C8004B35AD /* Main.storyboard */,
+				63F8BDCC18EE183C004B35AD /* ScanViewController.h */,
+				63F8BDCD18EE183C004B35AD /* ScanViewController.m */,
+				63F8BDCF18F4D5EC004B35AD /* GameViewController.h */,
+				63F8BDD018F4D5EC004B35AD /* GameViewController.m */,
+				63F8BDD518F62256004B35AD /* NotificationCentralManagerDelegate.h */,
+				63F8BDD618F62256004B35AD /* NotificationCentralManagerDelegate.m */,
+				63F8BDD818F62DD5004B35AD /* NotificationPeripheralDelegate.h */,
+				63F8BDD918F62DD5004B35AD /* NotificationPeripheralDelegate.m */,
+			);
+			path = Hangman;
+			sourceTree = "<group>";
+		};
+		63F8BD9E18EE17C8004B35AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63332E8518FA270A006225C6 /* Images */,
+				63F8BD9F18EE17C8004B35AD /* Hangman-Info.plist */,
+				63F8BDA018EE17C8004B35AD /* InfoPlist.strings */,
+				63F8BDA318EE17C8004B35AD /* main.m */,
+				63F8BDA518EE17C8004B35AD /* Hangman-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63F8BDBC18EE17C8004B35AD /* HangmanTests */ = {
+			isa = PBXGroup;
+			children = (
+				63F8BDC218EE17C8004B35AD /* HangmanTests.m */,
+				63F8BDBD18EE17C8004B35AD /* Supporting Files */,
+			);
+			path = HangmanTests;
+			sourceTree = "<group>";
+		};
+		63F8BDBD18EE17C8004B35AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63F8BDBE18EE17C8004B35AD /* HangmanTests-Info.plist */,
+				63F8BDBF18EE17C8004B35AD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63F8BD9318EE17C7004B35AD /* Hangman */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63F8BDC618EE17C8004B35AD /* Build configuration list for PBXNativeTarget "Hangman" */;
+			buildPhases = (
+				63F8BD9018EE17C7004B35AD /* Sources */,
+				63F8BD9118EE17C7004B35AD /* Frameworks */,
+				63F8BD9218EE17C7004B35AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hangman;
+			productName = Hangman;
+			productReference = 63F8BD9418EE17C7004B35AD /* Hangman.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63F8BDB418EE17C8004B35AD /* HangmanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63F8BDC918EE17C8004B35AD /* Build configuration list for PBXNativeTarget "HangmanTests" */;
+			buildPhases = (
+				63F8BDB118EE17C8004B35AD /* Sources */,
+				63F8BDB218EE17C8004B35AD /* Frameworks */,
+				63F8BDB318EE17C8004B35AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63F8BDBB18EE17C8004B35AD /* PBXTargetDependency */,
+			);
+			name = HangmanTests;
+			productName = HangmanTests;
+			productReference = 63F8BDB518EE17C8004B35AD /* HangmanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63F8BD8C18EE17C7004B35AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Aaron Day";
+				TargetAttributes = {
+					63F8BDB418EE17C8004B35AD = {
+						TestTargetID = 63F8BD9318EE17C7004B35AD;
+					};
+				};
+			};
+			buildConfigurationList = 63F8BD8F18EE17C7004B35AD /* Build configuration list for PBXProject "Hangman" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63F8BD8B18EE17C7004B35AD;
+			productRefGroup = 63F8BD9518EE17C7004B35AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63F8BD9318EE17C7004B35AD /* Hangman */,
+				63F8BDB418EE17C8004B35AD /* HangmanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63F8BD9218EE17C7004B35AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F8BDB018EE17C8004B35AD /* Images.xcassets in Resources */,
+				63332E9318FA2718006225C6 /* hangman_06@2x.png in Resources */,
+				63F8BDA218EE17C8004B35AD /* InfoPlist.strings in Resources */,
+				63332E8E18FA2718006225C6 /* hangman_01@2x.png in Resources */,
+				63332E9118FA2718006225C6 /* hangman_04@2x.png in Resources */,
+				63332E9218FA2718006225C6 /* hangman_05@2x.png in Resources */,
+				63332E9018FA2718006225C6 /* hangman_03@2x.png in Resources */,
+				63F8BDAB18EE17C8004B35AD /* Main.storyboard in Resources */,
+				63332E8D18FA2718006225C6 /* hangman_00@2x.png in Resources */,
+				63332E8F18FA2718006225C6 /* hangman_02@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63F8BDB318EE17C8004B35AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F8BDC118EE17C8004B35AD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63F8BD9018EE17C7004B35AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F8BDD718F62256004B35AD /* NotificationCentralManagerDelegate.m in Sources */,
+				63F8BDD118F4D5EC004B35AD /* GameViewController.m in Sources */,
+				63F8BDDA18F62DD5004B35AD /* NotificationPeripheralDelegate.m in Sources */,
+				63F8BDA818EE17C8004B35AD /* AppDelegate.m in Sources */,
+				63F8BDCE18EE183C004B35AD /* ScanViewController.m in Sources */,
+				63F8BDA418EE17C8004B35AD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63F8BDB118EE17C8004B35AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F8BDC318EE17C8004B35AD /* HangmanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63F8BDBB18EE17C8004B35AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63F8BD9318EE17C7004B35AD /* Hangman */;
+			targetProxy = 63F8BDBA18EE17C8004B35AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63F8BDA018EE17C8004B35AD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63F8BDA118EE17C8004B35AD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		63F8BDA918EE17C8004B35AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63F8BDAA18EE17C8004B35AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63F8BDBF18EE17C8004B35AD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63F8BDC018EE17C8004B35AD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63F8BDC418EE17C8004B35AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		63F8BDC518EE17C8004B35AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63F8BDC718EE17C8004B35AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hangman/Hangman-Prefix.pch";
+				INFOPLIST_FILE = "Hangman/Hangman-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		63F8BDC818EE17C8004B35AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hangman/Hangman-Prefix.pch";
+				INFOPLIST_FILE = "Hangman/Hangman-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		63F8BDCA18EE17C8004B35AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Hangman.app/Hangman";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hangman/Hangman-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HangmanTests/HangmanTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		63F8BDCB18EE17C8004B35AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Hangman.app/Hangman";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hangman/Hangman-Prefix.pch";
+				INFOPLIST_FILE = "HangmanTests/HangmanTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63F8BD8F18EE17C7004B35AD /* Build configuration list for PBXProject "Hangman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F8BDC418EE17C8004B35AD /* Debug */,
+				63F8BDC518EE17C8004B35AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63F8BDC618EE17C8004B35AD /* Build configuration list for PBXNativeTarget "Hangman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F8BDC718EE17C8004B35AD /* Debug */,
+				63F8BDC818EE17C8004B35AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63F8BDC918EE17C8004B35AD /* Build configuration list for PBXNativeTarget "HangmanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F8BDCA18EE17C8004B35AD /* Debug */,
+				63F8BDCB18EE17C8004B35AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63F8BD8C18EE17C7004B35AD /* Project object */;
+}
