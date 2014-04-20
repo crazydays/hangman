@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>B35C45DB-E5FA-4225-A06F-51C99271D750</string>
+	<string>C06AC43C-B3D0-457A-863B-04C5E56A3BEA</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Hangman</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -14,7 +14,7 @@
 		<string>ssh://github.com/crazydays/hangman.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>osx/Hangman.xcodeproj/project.xcworkspace</string>
+	<string>ios/Hangman.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>92BDCAEE-4161-4F30-8B37-0AEAAA5F9033</key>

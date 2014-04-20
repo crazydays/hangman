@@ -14,6 +14,8 @@
 		63332E9118FA2718006225C6 /* hangman_04@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63332E8A18FA2718006225C6 /* hangman_04@2x.png */; };
 		63332E9218FA2718006225C6 /* hangman_05@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63332E8B18FA2718006225C6 /* hangman_05@2x.png */; };
 		63332E9318FA2718006225C6 /* hangman_06@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63332E8C18FA2718006225C6 /* hangman_06@2x.png */; };
+		6344C96118FEBEB4006C3CAF /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6344C96018FEBEB4006C3CAF /* CoreBluetooth.framework */; };
+		6372AC4B190478BB00E9827D /* CBUUID+UUIDString.m in Sources */ = {isa = PBXBuildFile; fileRef = 6372AC4A190478BB00E9827D /* CBUUID+UUIDString.m */; };
 		63F8BD9818EE17C7004B35AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F8BD9718EE17C7004B35AD /* Foundation.framework */; };
 		63F8BD9A18EE17C7004B35AD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F8BD9918EE17C7004B35AD /* CoreGraphics.framework */; };
 		63F8BD9C18EE17C7004B35AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F8BD9B18EE17C7004B35AD /* UIKit.framework */; };
@@ -51,6 +53,9 @@
 		63332E8A18FA2718006225C6 /* hangman_04@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hangman_04@2x.png"; sourceTree = "<group>"; };
 		63332E8B18FA2718006225C6 /* hangman_05@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hangman_05@2x.png"; sourceTree = "<group>"; };
 		63332E8C18FA2718006225C6 /* hangman_06@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hangman_06@2x.png"; sourceTree = "<group>"; };
+		6344C96018FEBEB4006C3CAF /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		6372AC49190478BB00E9827D /* CBUUID+UUIDString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CBUUID+UUIDString.h"; sourceTree = "<group>"; };
+		6372AC4A190478BB00E9827D /* CBUUID+UUIDString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CBUUID+UUIDString.m"; sourceTree = "<group>"; };
 		63F8BD9418EE17C7004B35AD /* Hangman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hangman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63F8BD9718EE17C7004B35AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		63F8BD9918EE17C7004B35AD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -83,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6344C96118FEBEB4006C3CAF /* CoreBluetooth.framework in Frameworks */,
 				63F8BD9A18EE17C7004B35AD /* CoreGraphics.framework in Frameworks */,
 				63F8BD9C18EE17C7004B35AD /* UIKit.framework in Frameworks */,
 				63F8BD9818EE17C7004B35AD /* Foundation.framework in Frameworks */,
@@ -138,6 +144,7 @@
 		63F8BD9618EE17C7004B35AD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6344C96018FEBEB4006C3CAF /* CoreBluetooth.framework */,
 				63F8BD9718EE17C7004B35AD /* Foundation.framework */,
 				63F8BD9918EE17C7004B35AD /* CoreGraphics.framework */,
 				63F8BD9B18EE17C7004B35AD /* UIKit.framework */,
@@ -162,6 +169,8 @@
 				63F8BDD618F62256004B35AD /* NotificationCentralManagerDelegate.m */,
 				63F8BDD818F62DD5004B35AD /* NotificationPeripheralDelegate.h */,
 				63F8BDD918F62DD5004B35AD /* NotificationPeripheralDelegate.m */,
+				6372AC49190478BB00E9827D /* CBUUID+UUIDString.h */,
+				6372AC4A190478BB00E9827D /* CBUUID+UUIDString.m */,
 			);
 			path = Hangman;
 			sourceTree = "<group>";
@@ -306,6 +315,7 @@
 				63F8BDA818EE17C8004B35AD /* AppDelegate.m in Sources */,
 				63F8BDCE18EE183C004B35AD /* ScanViewController.m in Sources */,
 				63F8BDA418EE17C8004B35AD /* main.m in Sources */,
+				6372AC4B190478BB00E9827D /* CBUUID+UUIDString.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,10 +440,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hangman/Hangman-Prefix.pch";
 				INFOPLIST_FILE = "Hangman/Hangman-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "312901B0-0D0F-4990-9791-A031103F9C16";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -443,10 +456,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hangman/Hangman-Prefix.pch";
 				INFOPLIST_FILE = "Hangman/Hangman-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "312901B0-0D0F-4990-9791-A031103F9C16";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
